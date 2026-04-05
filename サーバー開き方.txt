@@ -1,0 +1,11 @@
+①batを開く
+②２つのリンクに従ってgithubでログイン＆トークンをコピーして貼り付け
+トークンの貼り付け方↓
+コマンドプロンプトに以下を入力（"$YOUR_AUTHTOKEN"に自分のコピーしたトークンを貼る）
+ngrok config add-authtoken $YOUR_AUTHTOKEN
+
+③新しくコマンドプロンプトを開いて以下を入力
+ngrok http 8000
+④「Forwarding 」の項目に出てきたリンクを開く。
+⑤Visit Siteを押してPCなら「tumutumu.html」のリンクを押す
+→ゲームプレイ可能(リンクの共有も可能)
